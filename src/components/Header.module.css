@@ -1,0 +1,22 @@
+.today h2 {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 550;
+}
+
+.checkmark {
+    width: 14px;
+    height: 14px;
+}
+
+.taskSpan {
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+}
+
+.wrapper {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}

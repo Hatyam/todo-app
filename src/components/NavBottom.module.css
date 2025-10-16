@@ -1,0 +1,5 @@
+.navBottom {
+    width: calc(100% - 24px);
+    bottom: 10px;
+    position: absolute;
+}

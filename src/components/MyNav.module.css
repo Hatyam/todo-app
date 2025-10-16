@@ -1,0 +1,11 @@
+.myNav {
+    width: 20vw;
+    min-width: 250px;
+    height: 100%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    background-color: #fffcf5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

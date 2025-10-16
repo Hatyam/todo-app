@@ -1,0 +1,65 @@
+.redPlus {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
+
+.addNote {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.addNote:hover {
+    color: #000;
+}
+
+.addNote {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+form .firstInput::placeholder {
+    font-size: 1rem;
+}
+
+.firstInput {
+    margin-bottom: 2px;
+}
+
+form {
+    padding: 5px 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.cancel, .add {
+    border: none;
+    border-radius: 4px;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.cancel {
+    margin-right: 5px;
+}
+
+.add {
+    background-color: rgba(255, 0, 0, 0.505);
+}
+
+.addNotAllowed {
+    cursor: not-allowed
+}
